@@ -1,0 +1,16 @@
+date,description,amount,account_name,institution,account_type
+2026-04-03,Salario Empresa XPTO,8500.00,Santander Conta,Santander,checking_account
+2026-04-05,Supermercado Pao de Acucar,-542.78,Santander Conta,Santander,checking_account
+2026-04-07,Uber Trip Centro,-38.90,Nubank Cartao,Nubank,credit_card
+2026-04-08,Netflix Assinatura,-39.90,Nubank Cartao,Nubank,credit_card
+2026-04-10,Ifood Restaurante Boa Mesa,-86.40,Nubank Cartao,Nubank,credit_card
+2026-04-12,Aluguel Apartamento,-2100.00,Santander Conta,Santander,checking_account
+2026-04-16,Farmacia Sao Paulo,-122.35,Nubank Conta,Nubank,checking_account
+2026-04-18,Pix Recebido Maria,320.00,Nubank Conta,Nubank,checking_account
+2026-04-20,Curso Python Dados,-249.90,Nubank Cartao,Nubank,credit_card
+2026-05-03,Salario Empresa XPTO,8500.00,Santander Conta,Santander,checking_account
+2026-05-04,Supermercado Mercado Livre,-610.25,Santander Conta,Santander,checking_account
+2026-05-06,Spotify Premium,-21.90,Nubank Cartao,Nubank,credit_card
+2026-05-08,99 Taxi Aeroporto,-74.20,Nubank Cartao,Nubank,credit_card
+2026-05-11,Restaurante Vila,-132.70,Nubank Cartao,Nubank,credit_card
+2026-05-12,Condominio Residencial,-780.00,Santander Conta,Santander,checking_account
