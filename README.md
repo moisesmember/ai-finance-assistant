@@ -1,5 +1,28 @@
 # Assistente Inteligente de Analise Financeira Pessoal
 
+## Visão de portfólio
+
+**Problema:** transformar transações importadas em indicadores compreensíveis, mantendo os cálculos separados da geração de texto.
+
+**Diferencial de arquitetura:** o domínio calcula os indicadores; a porta de LLM permite explicar os resultados sem colocar os cálculos financeiros sob responsabilidade do modelo.
+
+### Escopo atual
+
+| Capacidade | Situação documentada |
+| --- | --- |
+| Importação CSV, contas e transações | Implementada no MVP |
+| Categorização | Regras por palavras-chave |
+| Indicadores e resumo | Cálculo determinístico |
+| Explicação em linguagem natural | Provider simulado por padrão; adaptador opcional para LangChain |
+| ML supervisionado, SHAP, RAG e Open Finance | Não implementados |
+| Autenticação real e isolamento multiusuário | Próximos passos |
+
+### Demonstração local
+
+Siga a instalação abaixo, importe [data/sample_transactions.csv](data/sample_transactions.csv) e compare os endpoints de resumo e explicação. A resposta simulada permite testar o fluxo, mas não mede qualidade de uma LLM real.
+
+Consulte os [testes](tests) para os cenários de importação, classificação e geração de insights.
+
 Backend MVP em Python/FastAPI para importar transacoes financeiras via CSV, consolidar historico por conta/cartao, categorizar lancamentos por palavras-chave, gerar insights financeiros basicos e produzir explicacoes em linguagem natural a partir dos dados ja calculados.
 
 O projeto ainda nao implementa ML, SHAP, RAG ou Open Finance. A arquitetura deixa portas explicitas para esses componentes futuros sem acoplar o MVP a ferramentas de IA. A camada de LLM atual e simples e usa um provider fake por padrao para testes locais.
